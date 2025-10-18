@@ -1,0 +1,23 @@
+{
+  "name": "hello-world-mcp-server",
+  "version": "0.0.1",
+  "description": "Простой MCP сервер с hello world тулзой",
+  "main": "bin/hello-world-mcp-server.js",
+  "bin": {
+    "hello-world-mcp-server": "./bin/hello-world-mcp-server.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/hello-world-mcp-server.js",
+    "dev": "node --watch bin/hello-world-mcp-server.js"
+  },
+  "keywords": ["mcp", "server", "hello-world"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

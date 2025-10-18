@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "hello-world": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "ВАШ_ПАКЕТ@latest"
+      ]
+    }
+  }
+}
