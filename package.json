@@ -1,21 +1,22 @@
 {
-  "name": "hello-world-mcp-server",
+  "name": "gitlab-mcp-server",
   "version": "0.0.1",
-  "description": "Простой MCP сервер с hello world тулзой",
-  "main": "bin/hello-world-mcp-server.js",
+  "description": "MCP сервер для работы с GitLab API - пайплайны, джобы, логи, артефакты и их скачивание",
+  "main": "bin/gitlab-mcp-server.js",
   "bin": {
-    "hello-world-mcp-server": "./bin/hello-world-mcp-server.js"
+    "gitlab-mcp-server": "./bin/gitlab-mcp-server.js"
   },
   "type": "module",
   "scripts": {
-    "start": "node bin/hello-world-mcp-server.js",
-    "dev": "node --watch bin/hello-world-mcp-server.js"
+    "start": "node bin/gitlab-mcp-server.js",
+    "dev": "node --watch bin/gitlab-mcp-server.js"
   },
-  "keywords": ["mcp", "server", "hello-world"],
+  "keywords": ["mcp", "server", "gitlab", "pipeline", "ci", "cd"],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.4.0"
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "node-fetch": "^3.3.2"
   },
   "engines": {
     "node": ">=18.0.0"
